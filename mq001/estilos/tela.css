@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* ESTILOS PARA TELA */
+
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root {
+    --fonttitulo: 'UnifrakturMaguntia', cursive;
+    --fonttexto: 'Playfair Display', serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: var(--fonttexto);
+    font-size: 1em;
+}
+
+body{
+    background-image: url(../imagens/Textura\ de\ Papel\ Antigo\ em\ Creme.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+header{
+    color: black;
+}
+
+header > h1{
+    text-align: center;
+    font-family:var(--fonttitulo);
+    font-size: 40px;
+    color: black;
+}
+
+menu ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+   
+}
+
+article > h2{
+    margin: 20px;
+    text-align: center;
+}
+
+article > h3{
+    margin: 20px;
+    text-align: justify;
+}
+
+article > p{
+    font-family: var(--fonttexto);
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+article img {
+    display: block;
+    width: 60%;
+    max-width: 500px;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 4px;
+}
+
+main > p{
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #5c4935;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #a17b45;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    padding left: 15px;
+}
